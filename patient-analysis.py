@@ -1,9 +1,9 @@
 """ Patient's inflammation analysis for day 1 """
 
 import numpy as np
-import matplotlib.pyplot as ply
+import matplotlib.pyplot as plt
 
-data = np.loadtxt(fname='data/inflammation1.csv', deliminter=',')
+data = np.loadtxt(fname='data/inflammation1.csv', delimiter=',')
 
 #Finding dimesions of data
 print(data.shape)
